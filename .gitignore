@@ -28,3 +28,13 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+crash.log
+
+# Next.js build output
+/out/
